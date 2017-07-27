@@ -159,8 +159,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\Startup.MobileApp.cs" />
+    <Compile Include="Controllers\FavouriteController.cs" />
     <Compile Include="Controllers\FeedbackController.cs" />
+    <Compile Include="Controllers\RegionController.cs" />
     <Compile Include="Controllers\StoreController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="DataObjects\Feedback.cs" />
     <Compile Include="DataObjects\Store.cs" />
     <Compile Include="Models\myshoppe_demoContext.cs" />

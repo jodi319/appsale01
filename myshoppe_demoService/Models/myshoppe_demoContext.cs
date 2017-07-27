@@ -33,6 +33,12 @@ namespace myshoppe_demoService.Models
         public System.Data.Entity.DbSet<myshoppe_demoService.DataObjects.Feedback> Feedbacks { get; set; }
 
         public System.Data.Entity.DbSet<myshoppe_demoService.DataObjects.Store> Stores { get; set; }
+
+        public System.Data.Entity.DbSet<myshoppe_demoService.DataObjects.Favourite> Favourites { get; set; }
+
+        public System.Data.Entity.DbSet<myshoppe_demoService.DataObjects.Region> Regions { get; set; }
+
+        public System.Data.Entity.DbSet<myshoppe_demoService.DataObjects.User> Users { get; set; }
     }
 
 }
