@@ -1,15 +1,15 @@
-﻿using System;
-using Microsoft.Azure.Mobile.Server;
+﻿using Microsoft.Azure.Mobile.Server;
+using System;
 
 namespace myshoppe_demoService.DataObjects
 {
     public class User : EntityData
     {
-		public int Name { get; set; } = 0;
-		public int Email { get; set; } = 0;
-		public int CellNumber { get; set; } = 0;
-		public int TelNumber { get; set; } = 0;
-		public int Country { get; set; } = 0;
-		public int Province { get; set; } = 0;
+		public string Name { get; set; }
+		public string Email { get; set; }
+		public string CellNumber { get; set; }
+		public string TelNumber { get; set; }
+		public string Country { get; set; }
+		public string Province { get; set; }
     }
 }

@@ -164,14 +164,14 @@
     <Compile Include="Controllers\RegionController.cs" />
     <Compile Include="Controllers\StoreController.cs" />
     <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="DataObjects\Favourite.cs" />
     <Compile Include="DataObjects\Feedback.cs" />
+    <Compile Include="DataObjects\Region.cs" />
     <Compile Include="DataObjects\Store.cs" />
+    <Compile Include="DataObjects\User.cs" />
     <Compile Include="Models\myshoppe_demoContext.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="DataObjects\Favourite.cs" />
-    <Compile Include="DataObjects\Region.cs" />
-    <Compile Include="DataObjects\User.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />
@@ -187,6 +187,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\PublishProfiles\myshoppe-demo - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\myshoppedemoService20170801015222 - Web Deploy.pubxml" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
